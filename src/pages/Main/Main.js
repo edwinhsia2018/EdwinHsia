@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import './Main.css';
-import Avatar from ''
+import Avatar from '';
+import NavButton from '../../components/NavButton/NavButton';
 
 class Main extends Component {
-    state ={
+    state = {
 
     }
 
@@ -13,9 +14,12 @@ class Main extends Component {
 
     render() {
         return (
-            <main>
-                <Avatar />
-            </main>
+            <div>
+                <NavButton />
+                <main>
+                    <Avatar />
+                </main>
+            </div>
         )
     }
 }
