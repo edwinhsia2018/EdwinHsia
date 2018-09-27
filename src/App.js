@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Button } from 'reactstrap';
 import Main from '../src/pages/Main/Main';
+import PageTransition from 'react-router-page-transition';
 
 class App extends Component {
   render() {
@@ -14,11 +15,13 @@ class App extends Component {
           <h1 className="App-title">Edwin Hsia</h1>
         </header>
         <NavBar />
+        <PageTransition>
         <Router>
-        <Switch>
-          <Route exact path="/" component={Main} />
-        </Switch>
+          <Switch>
+            <Route exact path="/" component={Main} />
+          </Switch>
         </Router>
+        </PageTransition>
       </div>
     );
   }
