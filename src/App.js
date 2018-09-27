@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
+import { Button } from 'reactstrap';
+import Main from '../src/pages/Main/Main';
 
 class App extends Component {
   render() {
@@ -8,11 +11,14 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Edwin Hsia</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <NavBar />
+        <Router>
+        <Switch>
+          <Route exact path="/" component={Main} />
+        </Switch>
+        </Router>
       </div>
     );
   }
