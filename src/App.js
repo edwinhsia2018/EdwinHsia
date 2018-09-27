@@ -16,11 +16,11 @@ class App extends Component {
         </header>
         <NavBar />
         <PageTransition>
-        <Router>
-          <Switch>
-            <Route exact path="/" component={Main} />
-          </Switch>
-        </Router>
+          <Router>
+            <Switch>
+              <Route exact path="/" component={Main} />
+            </Switch>
+          </Router>
         </PageTransition>
       </div>
     );
