@@ -4,7 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Button } from 'reactstrap';
 import Main from '../src/pages/Main/Main';
-import PageTransition from 'react-router-page-transition';
+// import PageTransition from 'react-router-page-transition';
 
 class App extends Component {
   render() {
@@ -14,13 +14,17 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Edwin Hsia</h1>
         </header>
-        <PageTransition>
+        {/* <PageTransition> */}
           <Router>
             <Switch>
               <Route exact path="/" component={Main} />
+              <Route exact path="/aboutme" component={Aboutme} />
+              <Route exact path="/portfolio" component={Portfolio} />
+              <Route exact path="/resume" component={resume} />
+              <Route component={NoMatch} />
             </Switch>
           </Router>
-        </PageTransition>
+        {/* </PageTransition> */}
       </div>
     );
   }

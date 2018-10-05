@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import './Aboutme.css';
+import './Portfolio.css';
 
-class Aboutme extends Component {
+class Portfolio extends Component {
     
     render() {
         return (
