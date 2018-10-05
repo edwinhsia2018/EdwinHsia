@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import './Main.css';
 import Avatar from '../../components/Avatar/Avatar';
-import NavButton from '../../components/NavButton/NavButton';
+// import NavButton from '../../components/NavButton/NavButton';
 
 class Main extends Component {
     state = {
@@ -26,7 +26,7 @@ class Main extends Component {
                         <div className="col s4">
                             <a href="/aboutme"
                                 className="input-lg waves-effect waves-light btn">
-                                <i class="fa fa-user-circle-o" aria-hidden="true">Portfolio</i>
+                                <i class="fa fa-suitcase" aria-hidden="true">Portfolio</i>
                             </a>
                         </div>
                         <div className="col s4">
@@ -35,10 +35,13 @@ class Main extends Component {
                                 <i class="fa fa-user-circle-o" aria-hidden="true">Resume</i>
                             </a>
                         </div>
+                        <Avatar />
                     </div>
-                    <Avatar />
+
                 </div>
             </main>
         )
     }
 }
+
+export default Main;

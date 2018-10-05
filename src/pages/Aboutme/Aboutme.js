@@ -1,16 +1,17 @@
 import React, { Component } from "react";
 import './Aboutme.css';
+import '../../components/Avatar/Avatar';
 
 class Aboutme extends Component {
-    
+
     render() {
         return (
             <div>
-                <NavButton />
-                <main>
-                    <Avatar />
-                </main>
+                {/* <NavButton /> */}
+               About me page
             </div>
         )
     }
 }
+
+export default Aboutme;

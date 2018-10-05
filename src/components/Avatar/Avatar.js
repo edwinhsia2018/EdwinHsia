@@ -6,3 +6,5 @@ const Avatar = props => (
         <img src={require("../../images/edwinhsia.jpg")} alt = "edwinhsia" />
     </div>
 )
+
+export default Avatar;
