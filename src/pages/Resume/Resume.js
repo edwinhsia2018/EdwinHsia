@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import './Resume.css';
-import '../../components/Avatar/Avatar';
+import NavButton from '../../components/NavButton/NavButton';
 
 class Resume extends Component {
     
     render() {
         return (
             <div>
-                {/* <NavButton /> */}
+                <NavButton />
                 resume page
             </div>
         )

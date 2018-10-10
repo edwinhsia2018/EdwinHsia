@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import './Portfolio.css';
-import '../../components/Avatar/Avatar';
+import NavButton from '../../components/NavButton/NavButton';
 
 class Portfolio extends Component {
     
     render() {
         return (
             <div>
-                {/* <NavButton /> */}
+                <NavButton />
                 Portfolio page
             </div>
         )
