@@ -15,7 +15,7 @@ import Resume from './pages/Resume/Resume';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="main-body">
         {/* <PageTransition> */}
           <Router>
             <Switch>
