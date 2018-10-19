@@ -3,24 +3,28 @@ import './NavButton.css';
 
 const NavButton = props => (
     <div className="row">
-        <div className="col s4">
-            <a href="/aboutme"
-                className="input-lg waves-effect waves-light btn">
-                <i className="fa fa-user-circle-o" aria-hidden="true">About Me</i>
+        <div id="aboutme-button">
+            <a href="/aboutme" id="aboutme-text">
+                <i className="fa fa-user-circle-o" aria-hidden="true"></i>
+                <div>About Me</div>
             </a>
         </div>
-        <div className="col s4">
-            <a href="/aboutme"
-                className="input-lg waves-effect waves-light btn">
-                <i className="fa fa-suitcase" aria-hidden="true">Portfolio</i>
+
+        <div id="portfolio-button">
+            <a href="/portfolio" id="portfolio-text">
+                <i className="fa fa-suitcase" aria-hidden="true"></i>
+                <div>Portfolio</div>
             </a>
         </div>
-        <div className="col s4">
-            <a href="/aboutme"
-                className="input-lg waves-effect waves-light btn">
-                <i className="fa fa-user-circle-o" aria-hidden="true">Resume</i>
+
+        <div id="resume-button">
+            <a href="/resume" id="resume-text">
+                <i className="fa fa-user-circle-o" aria-hidden="true"></i>
+                <div>Resume</div>
             </a>
         </div>
+
+       
     </div>
 )
 
