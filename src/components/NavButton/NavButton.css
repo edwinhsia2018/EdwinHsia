@@ -1,10 +1,52 @@
-#portfolio-button {
-    background-color: rgb(99, 99, 99);
+#button-container {
+    justify-content: center;
+}
+
+#home-button {
+    background-color: rgb(99, 99, 99, 0.5);
     border-radius: 50%;
     border: 1px solid gray;
-    padding: 10px;
-    height: 5em;
-    width: 5em;
+    padding: 12px;
+    height: 6em;
+    width: 6em;
+    margin: 1em;
+}
+
+#home-button:hover {
+    background-color: rgb(99, 99, 99, 0.7);
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 12px;
+    height: 6em;
+    width: 6em;
+    margin: 1em;
+}
+
+#home-text {
+    color: white;
+}
+
+#home-text:active {
+    color: blue;
+}
+
+#portfolio-button {
+    background-color: rgb(99, 99, 99, 0.5);
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 12px;
+    height: 6em;
+    width: 6em;
+    margin: 1em;
+}
+
+#portfolio-button:hover {
+    background-color: rgb(99, 99, 99, 0.7);
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 12px;
+    height: 6em;
+    width: 6em;
     margin: 1em;
 }
 
@@ -13,12 +55,22 @@
 }
 
 #aboutme-button {
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(99, 99, 99, 0.5);
     border-radius: 50%;
     border: 1px solid gray;
-    padding: 10px;
-    height: 5em;
-    width: 5em;
+    padding: 12px;
+    height: 6em;
+    width: 6em;
+    margin: 1em;
+}
+
+#aboutme-button:hover {
+    background-color: rgb(99, 99, 99, 0.7);
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 12px;
+    height: 6em;
+    width: 6em;
     margin: 1em;
 }
 
@@ -27,12 +79,22 @@
 }
 
 #resume-button {
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(99, 99, 99, 0.5);
     border-radius: 50%;
     border: 1px solid gray;
-    padding: 10px;
-    height: 5em;
-    width: 5em;
+    padding: 12px;
+    height: 6em;
+    width: 6em;
+    margin: 1em;
+}
+
+#resume-button:hover {
+    background-color: rgb(99, 99, 99, 0.7);
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 12px;
+    height: 6em;
+    width: 6em;
     margin: 1em;
 }
 

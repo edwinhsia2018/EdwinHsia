@@ -2,6 +2,13 @@
     background-color: black;
 }
 
+#resume-body {
+    width: 70%;
+    height: 100%;
+    padding: 10px;
+    margin: auto;
+}
+
 #title-text {
     font-weight: bolder;
     font-size: 2em;
@@ -14,11 +21,22 @@
     color: rgb(46, 117, 199);
 }
 
+#subheader-text {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(46, 117, 199);
+}
+
 #skills-text {
     color: white;
-    font-weight: 200;
-    font-size: 1em;
+    font-weight: 100;
     display: inline;
+    font-size: .8em;
     justify-content: left;
 }
 
+#work-text {
+    color: white;
+    font-weight: 100;
+    justify-content: left;
+}
