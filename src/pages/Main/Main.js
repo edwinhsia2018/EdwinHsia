@@ -16,17 +16,20 @@ class Main extends Component {
         return (
             <main>
                 <div>
-                    {/* <div className="parallax-container">
-                        <div className="parallax"><img src="../../images/background1.jpg" />
+                    <div>
+                        <div className="parallax">
+                            <div id="main-container">
+                                <NavButton />
+                                <div>
+                                    <div>
+                                        <Avatar id="avatar-container" />
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div> */}
-                    <div className="row container" id="main-container">
-                        
-                        <NavButton />
-                        <Avatar id="avatar-container"/>
                     </div>
-
                 </div>
+
             </main>
         )
     }

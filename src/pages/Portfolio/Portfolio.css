@@ -1,0 +1,6 @@
+.portfolio-bg {
+    background-image: url("../../images/resume_bg.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

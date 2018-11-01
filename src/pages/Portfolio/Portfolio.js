@@ -6,7 +6,7 @@ class Portfolio extends Component {
     
     render() {
         return (
-            <div>
+            <div className="portfolio-bg">
                 <NavButton />
                 Portfolio page
             </div>
