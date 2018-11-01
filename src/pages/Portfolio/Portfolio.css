@@ -4,3 +4,13 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.portfolio-links {
+    background-color: rgb(99, 99, 99, 0.5);
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 12px;
+    height: 6em;
+    width: 6em;
+    margin: 1em;
+}

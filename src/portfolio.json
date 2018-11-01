@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Plant Tracker",
+    "image": "http://www.iment.com/maida/tv/lordoftherings/gandalf-small.jpg",
+    "link": "https://plant-tracker-app.herokuapp.com/"
+  },
+  {
+    "id": 2,
+    "name": "LOTR Click Game",
+    "image": "http://www.iment.com/maida/tv/lordoftherings/gandalf-small.jpg",
+    "link": "http://edwinhsia.com/lotrclickgame"
+  },
+  {
+    "id": 3,
+    "name": "Giphy Time",
+    "image": "http://www.iment.com/maida/tv/lordoftherings/bilbo-small.jpg",
+    "link": "http://edwinhsia.com/giphytime"
+  },
+  {
+    "id": 4,
+    "name": "Train Scheduler",
+    "image": "http://www.iment.com/maida/tv/lordoftherings/frodo-small.jpg",
+    "link": "http://edwinhsia.com/trainscheduler"
+  },
+  {
+    "id": 5,
+    "name": "Crystal Collector",
+    "image": "http://www.iment.com/maida/tv/lordoftherings/sam-small.jpg",
+    "link": "http://edwinhsia.com/crystalcollector"
+  },
+  {
+    "id": 6,
+    "name": "NY Times Scraper",
+    "image": "http://www.iment.com/maida/tv/lordoftherings/aragorn-small.jpg",
+    "link": "http://edwinhsia.com/nytimesscraper"
+  },
+  {
+    "id": 7,
+    "name": "Eat Da Burger",
+    "image": "http://www.iment.com/maida/tv/lordoftherings/boromir-small.jpg",
+    "link": "http://edwinhsia.com/eatdaburger"
+  },
+  {
+    "id": 8,
+    "name": "Letter Guesser",
+    "image": "http://www.iment.com/maida/tv/lordoftherings/legalos-small.jpg",
+    "link": "http://edwinhsia.com/letterguesser"
+  },
+  {
+    "id": 9,
+    "name": "Bamazon",
+    "image": "http://www.iment.com/maida/tv/lordoftherings/gimli-small.jpg",
+    "link": "http://edwinhsia.com/bamazon"
+  },
+  {
+    "id": 10,
+    "name": "Travel Buddy",
+    "image": "http://www.iment.com/maida/tv/lordoftherings/gimli-small.jpg",
+    "link": "https://travelbuddy2018.herokuapp.com/"
+  },
+  {
+    "id": 11,
+    "name": "Minion Trivia",
+    "image": "http://www.iment.com/maida/tv/lordoftherings/gimli-small.jpg",
+    "link": "https://edwinhsia.com/miniontrivia"
+  }
+]
