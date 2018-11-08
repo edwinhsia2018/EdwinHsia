@@ -7,7 +7,7 @@ const Avatar = props => (
         <div className="card-image waves-effect waves-block waves-light">
             <img className="activator" src={edwinImg} />
         </div>
-        <div className="card-content">
+        <div className="card-content avatar-card">
             <span className="card-title activator grey-text text-darken-4">Edwin Hsia<i className="material-icons right">more_vert</i></span>
         </div>
         <div className="card-reveal">

@@ -14,9 +14,14 @@
     display: block;
 }
 
+#avatar-card {
+    opacity: .5;
+}
+
 .parallax {
     background-image: url("../../images/about_bg.png");
     height: 1000px;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
