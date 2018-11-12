@@ -1,20 +1,21 @@
-import React from "react";
+import React, { Component } from "react";
 import './Main.css';
 import Avatar from '../../components/Avatar/Avatar';
 import NavButton from "../../components/NavButton/NavButton";
-import styled from "styled-components";
-import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
-function Main({ location }) {
+class Main extends Component {
+    // state = {
 
-    return (
-        <Wrapper>
-            <TransitionGroup>
-                <CSSTransition
-                    key={location.key}
-                    timeout={{ enter: 300, exit: 300 }}
-                    classNames={'fade'}
-                >
+    // }
+
+    // handleClick = event => {
+
+    // }
+
+    render() {
+        return (
+            <main>
+                <div>
                     <div>
                         <div className="parallax">
                             <div id="main-container">
@@ -27,12 +28,11 @@ function Main({ location }) {
                             </div>
                         </div>
                     </div>
-                </CSSTransition>
-            </TransitionGroup>
-        </Wrapper>
-    )
-}
+                </div>
 
-const Wrapper = styled.div``;
+            </main>
+        )
+    }
+}
 
 export default Main;
