@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import './Aboutme.css';
 import '../../components/Avatar/Avatar';
 import NavButton from "../../components/NavButton/NavButton";
+import Carousel from "../../components/Carousel/Carousel";
 
 class Aboutme extends Component {
 
@@ -9,7 +10,8 @@ class Aboutme extends Component {
         return (
             <div>
                 <NavButton />
-               About me page
+                <Carousel />
+                I am an avid photographer and I love taking pictures of landscapes and anything that inspires me to create.
             </div>
         )
     }
