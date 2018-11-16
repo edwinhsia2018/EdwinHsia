@@ -9,9 +9,13 @@ class Aboutme extends Component {
     render() {
         return (
             <div>
-                <NavButton />
-                <Carousel />
-                I am an avid photographer and I love taking pictures of landscapes and anything that inspires me to create.
+                <div className="parallax">
+                    <div id="aboutme-container">
+                        <NavButton />
+                        <Carousel />
+                        I am an avid photographer and I love taking pictures of landscapes and anything that inspires me to create.
+                    </div>
+                </div>
             </div>
         )
     }
