@@ -13,7 +13,8 @@ class Aboutme extends Component {
                     <div id="aboutme-container">
                         <NavButton />
                         <Carousel />
-                        I am an avid photographer and I love taking pictures of landscapes and anything that inspires me to create.
+                        I am an avid photographer and I love taking pictures and working with the latest technology.  
+                        I love learning new concepts and taking on challenges because they are opportunities to grow and improve.
                     </div>
                 </div>
             </div>

@@ -21,6 +21,10 @@ class Main extends Component {
                             <div id="main-container">
                                 <NavButton />
                                 <div>
+                                    Welcome to my page!  I am a front-end UI web developer who loves to make beautiful websites 
+                                    that is both aethetically pleasing as well as incredibly functional.
+                                </div>
+                                <div>
                                     <div>
                                         <Avatar id="avatar-container" />
                                     </div>
