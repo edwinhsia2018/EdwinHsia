@@ -20,8 +20,11 @@ class Main extends Component {
                         <div className="parallax">
                             <div id="main-container">
                                 <NavButton />
-                                <div>
-                                    Welcome to my page!  I am a front-end UI web developer who loves to make beautiful websites 
+                                <div className="intro-title">
+                                    WELCOME!
+                                    <br />
+                                    I am a front-end UI web developer who loves to make beautiful websites
+                                    <br />
                                     that is both aethetically pleasing as well as incredibly functional.
                                 </div>
                                 <div>
@@ -29,6 +32,12 @@ class Main extends Component {
                                         <Avatar id="avatar-container" />
                                     </div>
                                 </div>
+                                <ul className="main-title">
+                                    This page was created using React
+                                    <li>
+                                        For the styling a combination of Bootstrap and CSS was used.
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>

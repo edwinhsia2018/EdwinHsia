@@ -20,3 +20,17 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.intro-title {
+    /* font-weight: bolder; */
+    font-size: 1.5em;
+    color: #fff;
+    margin: 2em;
+}
+
+.main-title {
+    /* font-weight: bolder; */
+    font-size: 1em;
+    color: #fff;
+    margin: 2em;
+}
