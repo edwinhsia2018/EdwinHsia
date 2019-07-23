@@ -12,13 +12,18 @@ class Resume extends Component {
                     <NavButton />
                     <div id="resume-body">
                         <strong><h1 className="left-align" id="title-text">Edwin Hsia</h1></strong>
-
+                        
+                        <ul className="contact-section">
+                            <li className=""><span></span></li>
+                            <li className=""><span></span></li>
+                            <li className=""><span></span></li>
+                        </ul>
 
                         <br></br>
                         <div className="divider"></div>
                         <br></br>
 
-                        <p id="header-text" className="left-align">SKILLS</p>
+                        <h2 id="header-text" className="left-align">SKILLS</h2>
                         <p id="subheader-text" className="left-align">Front-End
                 <span id="skills-text" className="flow-text left-align">  /  HTML5  ·  CSS3  ·  jQuery  ·  JavaScript  ·  WordPress  ·  Bootstrap  ·  Materialize  ·  SASS  ·  React.js  ·  Angular.js</span>
                         </p>
@@ -51,20 +56,8 @@ class Resume extends Component {
 
                         <p id="header-text" className="left-align">WORK EXPERIENCE</p>
 
-                        <ul className="collapsible">
-                            <li>
-                                <div id="subheader-text" className="collapsible-header">UI Architect/Developer  /  Pragmatics  / July 2018–Present</div>
-                                <div id="work-text" className="collapsible-body"><span>▪	Developed concept flight visualizer using Angular 6, Cesium.JS, HTML5, CSS3, SASS, and JavaScript to display spatial aerospace data as well as path tracking and analytics.</span></div>
-                            </li>
-                            <li>
-                                <div className="collapsible-header">Second</div>
-                                <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                            </li>
-                            <li>
-                                <div className="collapsible-header">Third</div>
-                                <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                            </li>
-                        </ul>
+                        <p id="subheader-text" className="left-align">UI Architect/Developer  /  Pragmatics  / July 2018–Present</p>
+                        <p id="work-text" className="left-align"><span>▪	Developed concept flight visualizer using Angular 6, Cesium.JS, HTML5, CSS3, SASS, and JavaScript to display spatial aerospace data as well as path tracking and analytics.</span></p>
 
                         <p id="subheader-text" className="left-align">UI Architect/Developer  /  Pragmatics  / July 2018–Present</p>
                         <p id="work-text" className="left-align">▪	Developed concept flight visualizer using Angular 6, Cesium.JS, HTML5, CSS3, SASS, and JavaScript to display spatial aerospace data as well as path tracking and analytics.</p>

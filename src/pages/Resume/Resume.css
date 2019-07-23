@@ -8,23 +8,25 @@
 #title-text {
     font-weight: bolder;
     font-size: 2em;
-    color: rgb(46, 117, 199);
+    /* color: rgb(232, 202, 118); */
+    color: white;
+    text-align: center;
 }
 
 #header-text {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
-    color: rgb(46, 117, 199);
+    color: rgb(232, 202, 118);
 }
 
 #subheader-text {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bold;
     color: rgb(46, 117, 199);
 }
 
 #project-text {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bold;
     color: rgb(46, 117, 199);
     display: block;
