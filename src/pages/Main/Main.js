@@ -23,9 +23,9 @@ class Main extends Component {
                                 <div className="intro-title">
                                     WELCOME!
                                     <br />
-                                    I am a front-end UI web developer who loves to make beautiful websites
+                                    I am a frontend web developer who loves to make beautiful websites
                                     <br />
-                                    that is both aethetically pleasing as well as incredibly functional.
+                                    that is both aethestically pleasing as well as intuitive and functional.
                                 </div>
                                 <div>
                                     <div>
@@ -33,9 +33,9 @@ class Main extends Component {
                                     </div>
                                 </div>
                                 <ul className="main-title">
-                                    This page was created using React
+                                    This site was created using React
                                     <li>
-                                        For the styling a combination of Bootstrap and CSS was used.
+                                        For the styling a combination of Materialize and CSS was used.
                                     </li>
                                 </ul>
                             </div>

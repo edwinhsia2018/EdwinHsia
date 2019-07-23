@@ -1,39 +1,46 @@
 import React, { Component } from "react";
 import './Resume.css';
 import NavButton from '../../components/NavButton/NavButton';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAddressCard, faUser, faPhoneSquare } from '@fortawesome/free-solid-svg-icons'
 
 class Resume extends Component {
-
     render() {
+
+        // const activeButton = {
+        //     'background-color': 'rgba(171, 171, 171, 0.9);'
+        // }
 
         return (
             <div className="resume-bg">
                 <div id="resume-container">
-                    <NavButton />
+                    <NavButton 
+                    
+                    />
                     <div id="resume-body">
                         <strong><h1 className="left-align" id="title-text">Edwin Hsia</h1></strong>
-                        
-                        <ul className="contact-section">
-                            <li className=""><span></span></li>
-                            <li className=""><span></span></li>
-                            <li className=""><span></span></li>
-                        </ul>
 
+                            <ul className="contact-section row">
+                                <li className="contact-info"><FontAwesomeIcon className="contact-icon" icon={faAddressCard} /> edwinhsia@gmail.com</li>
+                                <li className="contact-info"><FontAwesomeIcon className="contact-icon" icon={faPhoneSquare} /> 415-690-0175</li>
+                                <li className="contact-info"><FontAwesomeIcon className="contact-icon" icon={faUser} />GitHub.com/edwinhsia2018</li>
+                            </ul>
+      
                         <br></br>
                         <div className="divider"></div>
                         <br></br>
 
                         <h2 id="header-text" className="left-align">SKILLS</h2>
-                        <p id="subheader-text" className="left-align">Front-End
-                <span id="skills-text" className="flow-text left-align">  /  HTML5  ·  CSS3  ·  jQuery  ·  JavaScript  ·  WordPress  ·  Bootstrap  ·  Materialize  ·  SASS  ·  React.js  ·  Angular.js</span>
+                        <p id="subheader-text" className="left-align">Front-End:
+                <span id="skills-text" className="flow-text left-align">    HTML5  ·  CSS3  ·  jQuery  ·  JavaScript  ·  WordPress  ·  Bootstrap  ·  Materialize  ·  SASS  ·  React.js  ·  Angular</span>
                         </p>
 
-                        <p id="subheader-text" className="left-align">Back-End
-                <span id="skills-text" className="flow-text left-align"> /  Node.js  ·  Express.js  ·  MySQL  ·  Sequelize.js  ·  MongoDB  ·  Mongoose  ·  Cheerio.js</span>
+                        <p id="subheader-text" className="left-align">Back-End:
+                <span id="skills-text" className="flow-text left-align">   Node.js  ·  Express.js  ·  MySQL  ·  Sequelize.js  ·  MongoDB  ·  Mongoose  ·  Cheerio.js</span>
                         </p>
 
-                        <p id="subheader-text" className="left-align">Applications
-                <span id="skills-text" className="flow-text left-align"> /  GitHub  ·  Python  ·  Photoshop  ·  Premier  ·  Google Apps  ·  Jira  ·  Service-Now</span>
+                        <p id="subheader-text" className="left-align">Applications:
+                <span id="skills-text" className="flow-text left-align">   GitHub  ·  Python  ·  Photoshop  ·  Premier  ·  Google Apps  ·  Jira  ·  Service-Now</span>
                         </p>
 
                         <br></br>
@@ -42,11 +49,11 @@ class Resume extends Component {
 
                         <p id="header-text" className="left-align">PROJECT EXPERIENCE</p>
 
-                        <p id="subheader-text" className="left-align">Project Manager, Front-End UI Designer, API Tester   /  April 2018</p>
+                        <p id="subheader-text" className="left-align">FrontEnd UI Designer, API Tester   /  April 2018</p>
                         <a id="project-text" className="left-align" href="Travelbuddy2018.herokuapp.com">Travel Buddy</a>
                         <p id="work-text" className="left-align">▪	Built a website that utilized API calls to pull data from weather.com and OpenTable.com to provide suggested restaurants and events depending on the type of weather that is forecasted.  Technologies used: jQuery, Bootstrap, HTML and CSS.</p>
 
-                        <p id="subheader-text" className="left-align">Front-End Developer  /  May 2018</p>
+                        <p id="subheader-text" className="left-align">FrontEnd Developer  /  May 2018</p>
                         <a id="project-text" className="left-align" href="Plant-tracker-app.herokuapp.com">Plant Tracker</a>
                         <p id="work-text" className="left-align">▪	Built a full-stack website using MySQL, Sequelize.js, Express.js, Materialize, Passport and React.js to allow user registration and authentication as well as track plants to get watering care instructions and notifications texted to user.</p>
 

@@ -8,7 +8,6 @@
 #title-text {
     font-weight: bolder;
     font-size: 2em;
-    /* color: rgb(232, 202, 118); */
     color: white;
     text-align: center;
 }
@@ -51,4 +50,20 @@
     height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.contact-section {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.contact-info {
+    color: white;
+    display: flex;
+    margin: 0 2em;
+}
+
+.contact-icon {
+    margin:0 5px;
+    height: 20px;
 }

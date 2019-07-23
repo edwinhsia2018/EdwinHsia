@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
-import { Button } from 'reactstrap';
 // import PageTransition from 'react-router-page-transition';
 
 //Pages
@@ -10,6 +9,7 @@ import Aboutme from './pages/Aboutme/Aboutme';
 import NoMatch from './pages/404Page/NoMatch';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Resume from './pages/Resume/Resume';
+
 
 
 class App extends Component {

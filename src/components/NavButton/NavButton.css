@@ -5,7 +5,6 @@
 #home-button {
     background-color: rgb(99, 99, 99, 0.5);
     border-radius: 10%;
-    /* border: 1px solid gray; */
     padding: 12px;
     height: 6em;
     width: 6em;
@@ -15,7 +14,6 @@
 #home-button:hover {
     background-color: rgb(99, 99, 99, 0.7);
     border-radius: 10%;
-    /* border: 1px solid gray; */
     padding: 12px;
     height: 6em;
     width: 6em;
@@ -26,14 +24,9 @@
     color: white;
 }
 
-#home-text:active {
-    color: blue;
-}
-
 #portfolio-button {
     background-color: rgb(99, 99, 99, 0.5);
     border-radius: 10%;
-    /* border: 1px solid gray; */
     padding: 12px;
     height: 6em;
     width: 6em;
@@ -43,7 +36,6 @@
 #portfolio-button:hover {
     background-color: rgb(99, 99, 99, 0.7);
     border-radius: 10%;
-    /* border: 1px solid gray; */
     padding: 12px;
     height: 6em;
     width: 6em;
@@ -57,7 +49,6 @@
 #aboutme-button {
     background-color: rgb(99, 99, 99, 0.5);
     border-radius: 10%;
-    /* border: 1px solid gray; */
     padding: 12px;
     height: 6em;
     width: 6em;
@@ -67,7 +58,6 @@
 #aboutme-button:hover {
     background-color: rgb(99, 99, 99, 0.7);
     border-radius: 10%;
-    /* border: 1px solid gray; */
     padding: 12px;
     height: 6em;
     width: 6em;
@@ -81,7 +71,6 @@
 #resume-button {
     background-color: rgb(99, 99, 99, 0.5);
     border-radius: 10%;
-    /* border: 1px solid gray; */
     padding: 12px;
     height: 6em;
     width: 6em;
@@ -91,7 +80,6 @@
 #resume-button:hover {
     background-color: rgb(99, 99, 99, 0.7);
     border-radius: 10%;
-    /* border: 1px solid gray; */
     padding: 12px;
     height: 6em;
     width: 6em;
