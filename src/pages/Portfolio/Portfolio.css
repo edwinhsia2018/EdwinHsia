@@ -7,8 +7,7 @@
 
 .portfolio-links {
     background-color: rgb(99, 99, 99, 0.5);
-    border-radius: 50%;
-    border: 1px solid gray;
+    border-radius: 10%;
     padding: 12px;
     height: 6em;
     width: 6em;

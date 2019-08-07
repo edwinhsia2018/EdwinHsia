@@ -2,9 +2,13 @@
     margin: auto;
 }
 
-.parallax {
-    /* background-image: url("../../images/about_bg.png"); */
+.aboutme-parallax {
     height: 1000px;
+    background-color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.carousel {
+    margin-bottom: 2em;
 }

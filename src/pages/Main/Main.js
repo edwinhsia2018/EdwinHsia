@@ -14,18 +14,16 @@ class Main extends Component {
 
     render() {
         return (
-            <main>
+            <main className="transition-item">
                 <div>
                     <div>
                         <div className="parallax">
                             <div id="main-container">
                                 <NavButton />
                                 <div className="intro-title">
-                                    WELCOME!
-                                    <br />
-                                    I am a frontend web developer who loves to make beautiful websites
-                                    <br />
-                                    that is both aethestically pleasing as well as intuitive and functional.
+                                    <h1>Welcome!</h1>
+                                    <p>I am a frontend web developer who loves to make beautiful websites</p>
+                                    <p>that is both aethestically pleasing as well as intuitive and functional.</p>
                                 </div>
                                 <div>
                                     <div>

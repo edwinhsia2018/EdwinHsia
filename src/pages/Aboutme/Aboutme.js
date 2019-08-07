@@ -2,46 +2,28 @@ import React, { Component } from "react";
 import './Aboutme.css';
 import '../../components/Avatar/Avatar';
 import NavButton from "../../components/NavButton/NavButton";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
+import ImageCarousel from '../../components/Carousel/Carousel';
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
+// import { Carousel } from 'react-responsive-carousel';
 
 class Aboutme extends Component {
 
     render() {
         return (
-            <div>
-                <div className="parallax">
+            <div className="transition-item">
+                <div className="aboutme-parallax">
                     <div id="aboutme-container">
                         <NavButton />
-                        <Carousel
-                            showArrows={true}
-                            showThumbs={false}
-                        >
-                            <div>
-                                <div>
-                                    <img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwifsejT4cvjAhWJzlkKHUrbB3MQjRx6BAgBEAU&url=https%3A%2F%2Fwww.churchofjesuschrist.org%2Fmedia-library%2Fimages%2Fsunrise-forest-trees-mountains-1615775%3Flang%3Deng&psig=AOvVaw1Or7fCoaujsGF8drKS7QUY&ust=1563996009933084" />
-                                    <p>Example 1</p>
-                                </div>
-                                <div>
-                                    <img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiymtqn4cvjAhVEtlkKHfNwAYYQjRx6BAgBEAU&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fsunrise%2F&psig=AOvVaw1Or7fCoaujsGF8drKS7QUY&ust=1563996009933084" />
-                                    <p>Example 2</p>
-                                </div>
-                                <div>
-                                    <img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjD76y14cvjAhVH1VkKHRJdA24QjRx6BAgBEAU&url=http%3A%2F%2Falliswall.com%2Fnature%2Fbeautiful-sunrise&psig=AOvVaw1Or7fCoaujsGF8drKS7QUY&ust=1563996009933084" />
-                                    <p>Example 3</p>
-                                </div>
-                                <div>
-                                    <img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiAgva_4cvjAhWHrVkKHcg1BhAQjRx6BAgBEAU&url=https%3A%2F%2Fwww.4ksunrise.com%2F2018%2F11%2Fbeautiful-sunrise-trees-mountain-and.html&psig=AOvVaw1Or7fCoaujsGF8drKS7QUY&ust=1563996009933084" />
-                                    <p>Example 4</p>
-                                </div>
-                                <div>
-                                    <img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiTh5PI4cvjAhUlrlkKHT-2Dc0QjRx6BAgBEAU&url=https%3A%2F%2Fmedicalxpress.com%2Fnews%2F2017-11-sunrise-sunset-daily-city-dwellers.html&psig=AOvVaw1Or7fCoaujsGF8drKS7QUY&ust=1563996009933084" />
-                                    <p>Example 5</p>
-                                </div>
-                            </div>
-                        </Carousel>
-                        I am an avid photographer and I love taking pictures and working with the latest technology.
-                        I love learning new concepts and taking on challenges because they are opportunities to grow and improve.
+                        <ImageCarousel 
+                            className="carousel"
+                            image1={"https://www.aconsciousrethink.com/wp-content/uploads/2018/02/sunrise-quotes.jpg"}
+                            image2={"https://cdn.pixabay.com/photo/2016/08/09/21/54/yellowstone-national-park-1581879_960_720.jpg"}
+                            image3={"https://cdn.pixabay.com/photo/2016/11/06/05/36/landscape-1802337_960_720.jpg"}
+                            image4={"https://cdn.pixabay.com/photo/2017/08/07/23/11/iceland-2608985_960_720.jpg"}
+                            image5={"https://cdn.pixabay.com/photo/2017/10/10/07/48/hills-2836301_960_720.jpg"}
+                        />
+                        <p className="text-white">I am an avid photographer and I love taking pictures and working with the latest technology.</p>
+                        <p className="text-white">I love learning new concepts and taking on challenges because they are opportunities to grow and improve.</p>
                     </div>
                 </div>
             </div>
